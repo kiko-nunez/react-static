@@ -7,13 +7,13 @@ import Visitors from './components/Visitors';
 
 function App() {
   return (
-    <>
-   <Sidebar />
-   <Reviews />
-   <Rating />
-   <Analysis />
-   <Visitors />
-   </>
+    <div className='app'>
+      <Sidebar />
+      <Reviews />
+      <Rating />
+      <Analysis />
+      <Visitors />
+   </div>
   );
 }
 
